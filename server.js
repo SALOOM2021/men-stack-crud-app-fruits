@@ -16,7 +16,15 @@ app.use(morgan('dev'));
 
 // ROUTES
 // server.js
+// GET /fruits/new
+// server.js
 
+// GET /fruits/new
+app.get("/fruits/new", (req, res) => {
+    res.render("fruits/new.ejs");
+  });
+  
+  
 // GET /
 // server.js
 
